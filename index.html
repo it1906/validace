@@ -157,7 +157,7 @@
                                 <span class="input-group-text" id="inputGroupPrepend">IPv4</span>
                             </div>
                             <input type="text" class="form-control" name="ip" id="ip" placeholder="192.168.?.?"
-                                pattern="^todo$" aria-describedby="inputGroupPrepend" required required pattern="^192.168.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5]).(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])$">
+                                aria-describedby="inputGroupPrepend" pattern="^192.168.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5]).(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])$" required >
                             <div class="invalid-feedback">
                                 Zadejte správnou IP adresu
                             </div>
@@ -173,8 +173,8 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="inputGroupPrepend">MAC</span>
                             </div>
-                            <input type="text" class="form-control" name="mac" id="mac" placeholder="?" pattern="^todo$"
-                                aria-describedby="inputGroupPrepend" required required pattern="^([A-Fa-f0-9]{2}-){5}[A-fa-f0-9]{2}$">
+                            <input type="text" class="form-control" name="mac" id="mac" placeholder="?"
+                                aria-describedby="inputGroupPrepend" pattern="^([A-Fa-f0-9]{2}-){5}[A-fa-f0-9]{2}$" required>
                             <div class="invalid-feedback">
                                 Zadejte správnou MAC adresu
                             </div>
